@@ -10,7 +10,12 @@ public class Finca {
     private float area;
     private String telefono;
 
-
+    public Finca(String nombre, String cuidad, float area, String telefono) {
+        this.nombre = nombre;
+        this.cuidad = cuidad;
+        this.area = area;
+        this.telefono = telefono;
+    }
 
     //Getters and Setters
     public String getNombre() {
